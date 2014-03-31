@@ -58,7 +58,9 @@ class AnalogPlot:
 def main():
 # expects 1 arg - serial port string
 	if(len(sys.argv) != 2):
-		print "Example usage: python gui.py '/dev/ttyUSB0'"
+		print "Type:" 
+		print "sudo chmod 777 /dev/ttyUSB0"
+		print "python gui.py '/dev/ttyUSB0'"
 		exit(1)
  
 #strPort = '/dev/tty.usbserial-A7006Yqh'
