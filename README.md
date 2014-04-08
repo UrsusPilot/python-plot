@@ -1,16 +1,23 @@
 stm32f4_pythonGUI_realtime
 ==========================
 
-download matplotlib：
+
+- Youtube:
+
+ - https://www.youtube.com/watch?v=Ks8fWrLTWw8
+
+
+- download matplotlib：
  
-- sudo apt-get install python-matplotlib
+ - sudo apt-get install python-matplotlib
  
-   http://matplotlib.org/1.3.1/users/installing.html
+ -  http://matplotlib.org/1.3.1/users/installing.html
 
 
 
-Type
+- Type:
 
-~$ sudo chmod 777 /dev/ttyUSB0
+ - ~$ sudo chmod 777 /dev/ttyUSB0
 
-~$ python gui.py '/dev/ttyUSB0'
+ - ~$ python gui.py '/dev/ttyUSB0'
+
