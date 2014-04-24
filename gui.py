@@ -111,7 +111,7 @@ def main():
 		try:
 			line = ser.readline()
 			data = [float(val) for val in line.split()]
-			print data[0] , data[1] , data[2] , data[3] , data[4] , data[5]
+			print data
 			if(len(data) == 6):
 				analogData.add(data)
 				analogPlot.update(analogData)
